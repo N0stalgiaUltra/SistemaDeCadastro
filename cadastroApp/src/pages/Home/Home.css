@@ -1,0 +1,76 @@
+
+h1{
+  color: red;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+button{
+  width: 50%;
+  padding: 24px;
+  margin: 30px;
+}
+
+.LoginBox{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  width: 50%;
+  height: 350px;
+
+  margin: 10% 25%;
+  
+  border-radius: 5px;
+  border: 2px solid crimson;
+
+  background-color: red;
+  color: white;
+}
+
+.LoginBox h1{
+  text-align: center;
+  margin: 20px;
+  font-size: 25px;
+  color: black;
+}
+
+.LoginBox input{
+  background-color: rgb(250, 0, 0);
+  width: 50%;
+  padding: 10px;
+  margin: 25px 5px 20px;
+  
+  /*para deixar somente uma linha ao invés de uma caixa*/
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  outline: none;
+  font-size: 15px;
+
+  color: white;
+}
+
+.LoginBox input:hover{
+  border-bottom: 2px solid black;
+}
+
+.LoginBox input:focus{
+  background-color: rgba(220, 20, 60, 0.425);
+}
+
+.LoginBox button{
+  background-color: black;
+  color: white;
+}
+
+.RegisterButton{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.RegisterButton button{
+  color: red;
+  margin-top: -20px;
+}
